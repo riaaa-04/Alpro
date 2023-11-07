@@ -1,19 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package no5;
 
-import java.util.Scanner;
-
-
+/**
+ *
+ * @author admin
+ */
 public class no1 {
-    public static void main(String[] args) {
-        Scanner keyboard = new Scanner(System.in);
-        double imt,b,t;
-        System.out.println("indeks masa tubuh");
-        
-        System.out.print("berat(kg) : ");
-        b = keyboard.nextDouble();
-        System.out.print("tinggi (m) : ");
-        t = keyboard.nextDouble();
-        imt= Math.ceil (b/(t*t));
-        System.out.println("indeks masa tubuh adalah : " + imt);
-        
+public static void main(String[] args) {
+int bilangan = 1;
+while (bilangan<16){
+    System.out.println(bilangan);
+    bilangan = bilangan+1;
+}
     }
+    
 }
